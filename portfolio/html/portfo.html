@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal CV</title>
+            <!--font awesome css link-->
+        <link rel="stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        
+        <!--custom css-->
+        <link rel="stylesheet " href="C:\Users\user\Desktop\portfolio\css\style.css"> 
+    
+        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+ <script type="text/javascript">
+    $(document).ready(function(){
+$('#menu').click(function(){
+
+$(this).toggleClass('fa-times');
+$('header').toggleClass('toggle');
+
+});
+
+$(window).on('scroll load',function(){
+
+$('#menu').removeClass('fa-times');
+$('header').removeClass('toggle');
+
+});
+});
+
+ function myFunction() {
+     var x = document.getElementById("profile");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+      } 
+     else {
+      x.style.display = "none";
+     }
+   } 
+</script>
+</head>
+<body>
+    
+     <!--jquery cdn link-->
+    <!-- <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+                
+     <!--custom js file 
+     <script type="C:/Users/user/Desktop/portfolio/js/script.js"></script> --> 
+         
+   <!--  <button onclick="myFunction()" class="fas fa-bars" id="menu"></button> -->
+        <header>
+            <div class="user">
+                <img src="C:\Users\user\Desktop\portfolio\images\MY.webp" alt="">
+                <h3 class="name">Heaman Belay</h3>
+            <p class="post">CE student in Bahirdar University</p>
+            </div>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#education">Education</a></li>
+                  <!-- <li><a href="#portfolio">Portfolio</a></li>-->
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        
+
+<!-- <div id="menu" class="fas fa-bars">-->
+
+
+<!--home-->
+<section class="home" id="home">
+<h3>Hi There</h3>
+<h1>I'm <span>Heaman Belay</span></h1>
+<p>I'm 4th year B.Sc. student at Bahirdar University in field of Computer Engineering.
+     I am passionate about working on software applications and website development. </p>
+     <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button> </a>
+    </section>
+
+<!--about-->
+<section class="about" id="about">
+    <h1 class="head"><span>About Me</span></h1>
+    <div class="row">
+        <div class="info">
+           
+            <h3>Name:<span>Heaman Belay Dejene</span></h3>
+            <h3>Date of Birth:<span>11/04/2000</span></h3>
+            <h3>Qualification:<span></span></h3>
+            <h3>Post:<span></span></h3>
+            <h3>Language:<span>Amharic and English</span></h3>
+        
+            <a href="C:\Users\user\Desktop\portfolio\HeamanBelayCV.pdf" ><button class="btn">Download CV <i class="fa fa-user"></i></button></a>
+          
+        </div>
+   <div class="counter">
+       <div class="box">
+           <span>3+</span>
+           <h3>years of collaboration</h3>
+       </div>
+       <div class="box">
+        <span>3+</span>
+        <h3>Team projects completed</h3>
+    </div>
+    <div class="box">
+        <span>2+</span>
+        <h3> voluntary organizations member </h3>
+    </div>
+    <div class="box">
+        <span>2+</span>
+        <h3> Individual Projects done </h3>
+    </div>
+    
+   </div>
+    </div>
+
+</section>
+
+
+<!--about-->
+<section class="education" id="education">
+    <h1 class="head">My<span> Education</span></h1>
+
+<div class="box-container">
+    <div class="box">
+       <i class="fas fa-graduation-cap">   </i>
+           <span>2023</span>
+           <h3>CE Graduate</h3>
+           <p>My expected graduation date is on june, 2023</p>
+    
+    </div>
+    <div class="box">
+        <i class="fas fa-graduation-cap">   </i>
+            <span>2019-2022</span>
+            <h3>University</h3>
+            <p>I am now attending my bachelors degree program in one of the famous university in Ethiopia, Bahirdar University </p>
+  
+     </div>
+    <div class="box">
+        <i class="fas fa-graduation-cap">   </i>
+            <span>2017-2018</span>
+            <h3>My Preparatory Education</h3>
+            <p>Grade 11th and 12th in Kombolcha Higher Education Preparatory and Secondary School (in the top 3 of the class)</p>
+     
+     </div>
+     <div class="box">
+        <i class="fas fa-graduation-cap">    </i>
+            <span>2015-2016</span>
+            <h3>My Secondary Education </h3>
+            <p>Started my secondary eduaction in Millenium Kombolcha general Secondary school (in the top 3 of the class)</p>
+    
+     </div>
+     <div class="box">
+        <i class="fas fa-graduation-cap">   </i>
+            <span>2007-2014</span>
+            <h3> My Elementary Education</h3>
+            <p>Attended my Elementary education in Kombolcha Elementary School (Kombolcha, Ethiopia)</p>
+      
+     </div>
+</div>
+
+</section>
+
+<!--contact-->
+
+<section class="contact" id="contact">
+    <h1 class="head"><span>Contact</span> Me</h1>
+    <div class="row">
+<div class="content">
+    <h3 class="title">Contact Info</h3>
+    <div class="info">
+       
+        <h3><i class="fa fa-envelope"></i> heamanbelay@gmail.com </h3>
+        <h3><i class="fa fa-phone"></i> +251 979321789</h3>
+        <h3><i class="fa fa-phone"></i> +251 962161010 </h3>
+        <h3><i class="fa fa-map-marker-alt"></i> BIT campus, Bahirdar University, Bahirdar </h3>
+   
+     </div>
+
+</div>
+<form action="contact.php" method="POST">
+    <input type="text" name="txtName" placeholder="Enter your name here" class="box">
+    <input type="email" name="txtEmail" placeholder="Enter your Email addres here" class="box">
+<textarea name="txtMsg" id="" cols="30" rows="10" class="msg-box" placeholder="message and suggestions"></textarea>
+  <br> <button type="submit" class="btn"  name="btnSubmit" >Send <i class="fas fa-paper-plane"></i></button>
+    
+</form>
+    </div>
+</section>
+
+<a href="#home" class="top">
+    <img src="C:\Users\user\Desktop\portfolio\images\images.JPG" alt="" width="60px" heigh="80px" >
+</a>
+
+<!-- <script type="text/javascript">
+   function myFunction() {
+     var x = document.getElementById("profile");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+      } 
+     else {
+      x.style.display = "none";
+     }
+   } 
+</script>
+
+-->
+
+   <!--<script>
+        Let header=decument.querySelector(".header");
+function hide(){
+    header.classList.toggle("hide");
+}
+</script>
+
+ <script type="text/javascript">
+        
+   $(document).ready(function(){
+    $('menu').click(function(){
+
+        $(this).toggleClass('fa-times');
+        $('header').toggleClass('toggle');
+
+    });
+    
+  $(window).on('scroll load',function(){
+
+    $('#menu').removeClass('fa-times');
+    $('header').removeClass('toggle');
+
+  });
+});
+
+         </script> 
+-->
+
+
+    </body>
+</html>
